@@ -1,5 +1,5 @@
 {
-    "BASE_URL": "https://notex-server.onrender.com/",
+    "BASE_URL": "https://notex-server.onrender.com",
     "JWT_SECRET": "anaklusmos@0072633",
     "MONGODB_URL": "mongodb+srv://KounikMaitra:kounik12345678@notex.hp7p0.mongodb.net/?retryWrites=true&w=majority"
 }
