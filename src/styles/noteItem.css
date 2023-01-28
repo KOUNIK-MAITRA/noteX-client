@@ -1,0 +1,40 @@
+.note-card-title{
+    text-transform: capitalize;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+
+
+.note-tag{
+    text-align: right;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.note-icons{
+    font-size: large;
+    margin: 0 5px !important;
+ }
+.note-icons:hover{
+    font-weight: bolder;
+}
+.note-card{
+    color: rgb(161, 133, 93);
+    /* background-color: lightgoldenrodyellow;
+    border: 2px solid burlywood; */
+    background: lightgoldenrodyellow;  /* fallback for old browsers */ 
+    background: linear-gradient(to bottom, rgb(243, 243, 176), lightgoldenrodyellow); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, rgb(243, 243, 176), lightgoldenrodyellow); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+    
+}
+
+@media (max-width:1023px) {
+    .note-icons{
+        font-size: medium;
+    }
+    .note-card-title{
+        font-size: medium;
+    }
+}

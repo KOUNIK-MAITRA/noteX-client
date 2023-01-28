@@ -1,0 +1,21 @@
+.noteX-alert{
+    width: max-content; 
+    z-index: 10; 
+    position: absolute;
+    top: 7px;
+      
+    padding:1%; 
+    text-transform: capitalize
+}
+
+@media (max-width: 1023px) {
+
+    .noteX-alert{
+        width: max-content; 
+        z-index: 10; 
+        position: absolute;
+        top: 15px;  
+        padding: 6px 8px 7px 7px; 
+        text-transform: capitalize
+   }
+}

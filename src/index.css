@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@500&family=Nunito:wght@500&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif !important;
+  font-size: medium !important;
+  overflow: overlay;
+  overflow-x: hidden;
+}
+body::-webkit-scrollbar {
+  width: 10px;
+  height: 10rem;
+  border-radius: 100rem;
+}
+body::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 2rem;
+  margin-top: 10rem;
+  margin-bottom: 10rem;
+}
+body::-webkit-scrollbar-thumb {
+  background: rgba(123, 123, 126, 0.533);
+  border-radius: 2rem;
+}
+body::-webkit-scrollbar-thumb:hover {
+  background: rgba(75, 74, 74, 0.333);
+}
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+*:focus{
+  outline: none;
+}
+i{
+  cursor: pointer;
+}
+
